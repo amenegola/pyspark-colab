@@ -6,5 +6,6 @@ tar xf spark-3.1.1-bin-hadoop3.2.tgz
 pip install -q findspark
 pip install -q pyspark
 
-export JAVA_HOME=/usr/lib/jvm/java-11-openjdk-amd64
-export SPARK_HOME=/content/spark-3.1.1-bin-hadoop3.2
+# load environemnt variables
+mydir="${0%/*}"
+source "$mydir"environment_variables.sh
