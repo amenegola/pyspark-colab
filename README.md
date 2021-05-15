@@ -6,8 +6,6 @@ Para iniciar o ambiente Spark no colab, é necessário executar os seguintes com
 
 ```
 git clone https://github.com/amenegola/pyspark-colab.git
-cd pyspark-colab
-chmod +x prepare_environment.sh
-./prepare_environment.sh
+pyspark-colab/./prepare_environment.sh
 ```
 
